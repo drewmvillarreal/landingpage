@@ -1,0 +1,152 @@
+body{
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container{
+    background-color: #1f2937ef;
+    display: flex;
+    padding: 5px;
+    gap: 8px;
+    flex-direction: column;
+}
+
+/* navbar */
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 100px;
+}
+
+.header-logo > img{
+    width: 84px;
+    height: auto;
+    margin-right: auto;
+}
+
+.topnav a{
+    float: left;
+    color: #E5E7Eb;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    color: #3882F6;
+}
+
+.topnav-right{
+    display: flex;
+    align-items: center;
+}
+
+/* hero */
+
+.hero{
+    background-color: #1f2937ef;
+    padding: 100px;
+    display: flex;
+    padding: 90px;
+}
+
+.hero-text{
+    color: #E5E7Eb;
+    text-align: left;
+    flex: 2;
+}
+
+.hero-logo-right > img{
+    width: 150px;
+    margin-left: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.hero-button button{
+    border-radius: 5px;
+}
+
+/* content */
+
+.content-boxes{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 5px;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.content-boxes > figure > img{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color:#3882F6;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+/* quote */
+
+.quote p{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0 100px;
+    text-align: left;
+}
+
+.author{
+    text-align: right;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* sign up */
+
+.signup{
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    display: flex;
+    margin: 20px 200px;
+    border-radius: 10px;
+}
+
+.signup-text{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.signup-button button{
+    border-radius: 10px;
+    padding: 5px 25px;
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    border-color: #E5E7Eb;
+}
+
+button:hover{
+    background: white;
+    color: #3882F6;
+}
+/* footer */ 
+
+footer{
+    background: #1f2937ef;
+    color: #E5E7Eb;
+    text-align: center;
+    padding: 16px 16px;
+}
